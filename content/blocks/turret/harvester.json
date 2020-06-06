@@ -1,0 +1,40 @@
+{
+	"type": "DoubleTurret", 
+	"name": "Harvester",
+	"description": "have function to kill lich.",
+	"targetAir": true,
+	"targetGround": false,
+	"health": 550,
+	"size": 4,
+    "heatColor": "ff8a65", 
+    "shotWidth": 4,
+    "xRand": 3,
+    "ammoEjectBack": 3,
+    "cooldown": 0.09,
+    "recoil": 3,
+	"inaccuracy": 10,
+	"reload": 3,
+	"shootCone": 30,
+	"shootShake": 2,
+    "hitShake": 1,
+    "rotateSpeed": 1.5,
+	"shots": 6,
+	"range": 250,
+    "maxAmmo": 32,
+	"ammo": {
+		"plastanium": "flakPlastic",
+        "blast-compound": "flakExplosive", 
+        "surge-alloy": "flakSurge", 
+        "metaglass": "flakGlass"
+        }, 
+	"requirements": [
+		{ "item": "graphite", "amount": 215 }, 
+		{ "item": "titanium", "amount": 200 }, 
+		{ "item": "copper", "amount": 325 }, 
+		{ "item": "plastanium", "amount": 225 }, 
+		{ "item": "surge-alloy", "amount": 125 }
+	], 
+	"category": "turret", 
+	"shootSound": "shootSnap",
+	"research": "cyclone"
+}

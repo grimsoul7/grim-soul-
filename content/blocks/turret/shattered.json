@@ -1,0 +1,51 @@
+{
+	"type": "DoubleTurret", 
+	"name": "Shattered",
+	"description": "encounter fortress.",
+	"targetAir": true,
+	"targetGround": true,
+	"health": 350,
+	"size": 3,
+    "heatColor": "ff8a65", 
+    "shotWidth": 7,
+    "xRand": 3,
+    "ammoEjectBack": 4,
+    "cooldown": 0.09,
+    "recoil": 3,
+	"inaccuracy": 1.2,
+	"reload": 6,
+	"shootCone": 8,
+	"shootShake": 2,
+    "hitShake": 1,
+    "rotateSpeed": 2.5,
+	"shots": 8,
+	"range": 180,
+    "maxAmmo": 64,
+	"ammo": {
+		"silicon": "standardHoming", 
+		"copper": "standardCopper", 
+        "pyratite": "standardIncendiaryBig", 
+        "thorium": "standardThoriumBig", 
+        "graphite": "standardDenseBig", 
+        "steel": {
+            "bulletWidth": 9, 
+            "damage": 22,
+            "speed": 3.7,
+            "backColor": "99A3A3", 
+            "bulletHeight": 12, 
+            "shootEffect": "shootSmall", 
+            "smokeEffect": "shootSmallSmoke", 
+            "reloadMultiplier": 0.8, 
+            "ammoMultiplier": 4, 
+            "lifetime": 60
+        }
+	}, 
+	"requirements": [
+		{ "item": "graphite", "amount": 125 }, 
+		{ "item": "titanium", "amount": 95 }, 
+		{ "item": "silicon", "amount": 85 }
+	], 
+	"category": "turret", 
+	"shootSound": "shootBig",
+	"research": "dualvo"
+}
