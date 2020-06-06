@@ -1,0 +1,99 @@
+{
+
+	"type": "DoubleTurret", 	"name": "Dualvo",
+
+	"description": "Aku Ra ngerti.",
+
+	"targetAir": true,
+
+	"targetGround": true,
+
+	"health": 275,
+
+	"size": 2,
+
+    "heatColor": "ff8a65", 
+
+    "shotWidth": 4,
+
+    "xRand": 3,
+
+    "ammoEjectBack": 3,
+
+    "cooldown": 0.09,
+
+    "recoil": 3,
+
+	"inaccuracy": 1,
+
+	"reload": 5,
+
+	"shootCone": 8,
+
+	"shootShake": 2,
+
+    "hitShake": 1,
+
+    "rotateSpeed": 3,
+
+	"shots": 6,
+
+	"range": 150,
+
+    "maxAmmo": 32,
+
+	"ammo": {
+
+		"silicon": "standardHoming", 
+
+		"copper": "standardCopper", 
+
+        "pyratite": "standardIncendiary", 
+
+        "thorium": "standardThorium", 
+
+        "graphite": "standardDense", 
+
+        "fragment": {
+
+            "bulletWidth": 9, 
+
+            "damage": 18,
+
+            "speed": 3.7,
+
+            "backColor": "FEB380", 
+
+            "bulletHeight": 12, 
+
+            "shootEffect": "shootSmall", 
+
+            "smokeEffect": "shootSmallSmoke", 
+
+            "reloadMultiplier": 1, 
+
+            "ammoMultiplier": 4, 
+
+            "lifetime": 60
+
+        }
+
+	}, 
+
+	"requirements": [
+
+		{ "item": "graphite", "amount": 105 }, 
+
+		{ "item": "titanium", "amount": 80 }, 
+
+		{ "item": "copper", "amount": 125 }
+
+	], 
+
+	"category": "turret", 
+
+	"shootSound": "shootBig",
+
+	"research": "salvo"
+
+}
