@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"name": "Fragment Alloy Press",
+	"description": "Press a fragment to surge alloy", 
+	"itemCapacity": 15,
+	"liquidCapacity": 15,
+	"outputItem": {"item": "surge-alloy", "amount": 1 },
+	"size": 3,
+	"health": 180,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"update": true, 
+	"solid": true, 
+	"craftEffect": "pulverizeMedium",
+	"consumes": {
+		"power": 0.8,
+		"liquid": {
+		    "liquid": "water",
+		    "amount": 0.2
+		},
+		"items": {
+        "items": [
+        {"item": "fragment", "amount": 4 }
+      ]
+           }
+      }, 
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "thorium", "amount": 65 },
+		{ "item": "graphite", "amount": 80 }
+	],
+	"category": "crafting",
+	"research": "fragment-thorium-press",
+	"idleSound": "machine",
+	"idleSoundVolume": 0.3
+}

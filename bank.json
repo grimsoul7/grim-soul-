@@ -1,0 +1,12 @@
+{ "type": "vault", 
+  "name": "bank", 
+  "size": 4, 
+  "itemCapacity": 3500, 
+  "category": "effect",  
+  "requirements": [
+	{ "item": "titanium", "amount": 35 }, 
+	{ "item": "thorium", "amount": 20 }, 
+	{ "item": "silicon", "amount": 55 }
+], 
+  "research": "vault"
+}
